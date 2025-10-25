@@ -151,7 +151,7 @@ Error_Handler();
   {
     /* USER CODE END WHILE */
 	  HAL_GPIO_TogglePin(GPIOI, GPIO_PIN_13);
-	  HAL_Delay(5000);
+	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
