@@ -1,0 +1,50 @@
+# STM32CubeIDE / Eclipse workspace - ignore build artifacts and user-specific IDE files
+
+# Build output (common)
+**/Debug/
+**/Release/
+**/build/
+*.o
+*.obj
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+*.d
+*.dep
+
+# Eclipse/STM32CubeIDE workspace metadata (user-specific)
+**/.settings/
+**/*.launch
+**/.project.user
+**/.cproject.user
+*.launch
+.metadata/
+.recommenders/
+
+# Generated files by STM32CubeMX / CubeIDE
+*.ioc.d/*   # generated intermediate files
+*.ioc.user  # user-specific IOC state
+*.mxproject.user
+
+# Tooling / editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Binary blobs and intermediate objs often produced by tools
+*.lib
+*.a
+*.so
+*.dll
+*.exe
+
+# Logs and temporary files
+*.log
+tmp/
